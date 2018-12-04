@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Indie</string>
+    <string name="album_art">Album Art</string>
+    <string name="play_previous">Play Previous</string>
+    <string name="play_pause">Play/Pause</string>
+    <string name="play_next">Play Next</string>
+    <string name="thumbnail">Thumbnail</string>
+    <string name="song_name">Song Name</string>
+    <string name="artist_name">Artist Name</string>
+    <string name="duration">Duration</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="playlist">Playlist</string>
+</resources>
