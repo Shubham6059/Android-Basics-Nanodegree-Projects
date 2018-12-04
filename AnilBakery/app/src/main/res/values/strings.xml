@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Anil Bakery</string>
+    <string name="description">Cake Image</string>
+    <string name="about">The best place to eat exceptional pastries and cake with easily affordable prices.</string>
+    <string name="address"><u>Anil Bakery, SH36, Feroz Gandhi Nagar, Raebareli, Uttar Pradesh 229010</u></string>
+    <string name="phone">9044461011</string>
+    <string name="email">anilbakery.rbl@gmail.com</string>
+    <string name="facebook">"https://m.facebook.com/Anilbakeryraebareli/"</string>
+</resources>
