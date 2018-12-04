@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.BooksCatalogActivity">
+
+    <!--So that all entries are visible-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--This will display database queries-->
+            <TextView
+                android:id="@+id/books_details"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dp_16"
+                android:textAppearance="?android:textAppearanceMedium"
+                tools:text="@string/books_details" />
+
+            <!--So that TextView bottom does not hide behind FAB-->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_64" />
+        </LinearLayout>
+    </ScrollView>
+
+    <!--To add Books Details-->
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/add_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/dp_16"
+        android:src="@drawable/ic_add_fab" />
+
+</RelativeLayout>

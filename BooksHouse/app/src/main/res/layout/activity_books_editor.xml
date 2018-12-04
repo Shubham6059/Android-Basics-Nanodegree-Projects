@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?><!--Edit the details for new Book Entry-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".activity.BooksEditorActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:orientation="vertical">
+
+        <!--LinearLayout to support Child Views alignment-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/product_name"
+                style="@style/TextView"
+                android:text="@string/product_name" />
+
+            <EditText
+                android:id="@+id/product_name_et"
+                style="@style/TextView"
+                android:hint="@string/product_name"
+                android:inputType="text" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/price"
+                style="@style/TextView"
+                android:text="@string/price" />
+
+            <EditText
+                android:id="@+id/price_et"
+                style="@style/TextView"
+                android:hint="@string/price"
+                android:inputType="number"
+                android:maxLength="10" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/quantity"
+                style="@style/TextView"
+                android:text="@string/quantity" />
+
+            <EditText
+                android:id="@+id/quantity_et"
+                style="@style/TextView"
+                android:hint="@string/quantity"
+                android:inputType="number"
+                android:maxLength="10" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/supplier_name"
+                style="@style/TextView"
+                android:text="@string/supplier_name" />
+
+            <EditText
+                android:id="@+id/supplier_name_et"
+                style="@style/TextView"
+                android:hint="@string/supplier_name"
+                android:inputType="text" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/supplier_phone_number"
+                style="@style/TextView"
+                android:text="@string/supplier_contact" />
+
+            <EditText
+                android:id="@+id/supplier_phone_number_et"
+                style="@style/TextView"
+                android:hint="@string/supplier_contact"
+                android:inputType="phone"
+                android:maxLength="10" />
+
+        </LinearLayout>
+
+        <!--to support bottom margin-->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_16" />
+
+    </LinearLayout>
+
+</ScrollView>

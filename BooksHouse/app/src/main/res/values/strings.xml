@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Books House</string>
+
+    <!--Column Values for books database-->
+    <string name="product_name">Product Name</string>
+    <string name="price">Price</string>
+    <string name="quantity">Quantity</string>
+    <string name="supplier_name">Supplier Name</string>
+    <string name="supplier_contact">Supplier Contact</string>
+
+    <string name="edit_book">Edit Book</string>
+    <string name="action_save">Save</string>
+    <string name="books_details">Books Details</string>
+
+    <!--Toast messages-->
+    <string name="fill_all_fields">Fill all fields!</string>
+    <string name="enter_correct_price">Enter correct Price!</string>
+    <string name="zero_quantity">Quantity cann\'t be Zero</string>
+    <string name="not_a_valid_contact">Not a valid contact</string>
+    <string name="error_saving_book_data">Error saving Book data</string>
+    <string name="book_data_saved">Book data saved with row id</string>
+    <string name="the_books_table_contains">The \"books\" table contains</string>
+    <string name="books">books.\n\n</string>
+</resources>
