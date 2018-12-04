@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pencil_bg"
+    tools:context=".WelcomeActivity">
+
+    <ImageView
+        android:id="@+id/androidLogoImg"
+        android:layout_width="@dimen/dimen_160dp"
+        android:layout_height="@dimen/dimen_160dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dimen_72dp"
+        android:contentDescription="@string/android_logo"
+        android:src="@drawable/android_logo" />
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/androidLogoImg"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/welcome"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/dimen_48sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/captionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/welcome"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dimen_48dp"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/enter_your_name_to_get_started" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/captionText"
+        android:layout_marginLeft="@dimen/dimen_32dp"
+        android:layout_marginRight="@dimen/dimen_32dp"
+        android:layout_marginTop="@dimen/dimen_16dp"
+        android:hint="@string/name">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:maxLines="1" />
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:id="@+id/madeWith_Text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/dimen_16dp"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/made_with_for_udacity"
+        android:textAlignment="center" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/madeWith_Text"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="@dimen/dimen_16dp"
+        android:src="@drawable/ic_fab" />
+</RelativeLayout>

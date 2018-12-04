@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">DroidQ</string>
+    <string name="made_with_for_udacity">Made with❤for Udacity</string>
+    <string name="welcome">Welcome!</string>
+    <string name="android_logo">android logo</string>
+    <string name="enter_your_name_to_get_started">Enter your name to get started</string>
+    <string name="name">Name</string>
+    <string name="background_image">android oreo background image</string>
+
+    <!--For Question 1-->
+    <string name="que1">
+        <b>Q1.</b> What is the preferred minimum apt size for touch targets like buttons?</string>
+    <string name="_48dp">48dp</string>
+    <string name="_56sp">56sp</string>
+    <string name="_72in">72in</string>
+    <string name="_24px">24px</string>
+
+    <!--For Question 2-->
+    <string name="que2">
+        <b>Q2. </b>Which of these is/are the correct form(s) to represent HEX code for colors?</string>
+    <string name="rgb">#rgb</string>
+    <string name="rrggbb">#rrggbb</string>
+    <string name="argb">#argb</string>
+    <string name="aarrggbb">#aarrggbb</string>
+    <string name="none_of_these">None of These</string>
+
+    <!--For Question 3-->
+    <string name="que3">
+        <b>Q3. </b>Select the correct XML code to make text bold &#38; italic</string>
+    <string name="opt3a">android:textStyle = "bold&#38;italic"</string>
+    <string name="opt3b">android:textStyle = "bold|italic"</string>
+    <string name="opt3c">android:textStyle = "bold" + "italic"</string>
+    <string name="opt3d">android:textStyle = "bold_with_italic"</string>
+
+    <!--For Question 4-->
+    <string name="que4">
+        <b>Q4. </b>Select the correct XML code to ignore Hardcoded Text</string>
+    <string name="opt4a">android:ignoreText="HardcodedText"</string>
+    <string name="opt4b">android:suppressText="HardcodedText"</string>
+    <string name="opt4c">tools:ignore="HardcodedText"</string>
+    <string name="opt4d">tools:suppress="HardcodedText"</string>
+
+    <!--For Question 5-->
+    <string name="que5">
+        <b>Q5. </b>Correct sp value for textAppearanceSmall is</string>
+    <string name="_14sp">14sp</string>
+    <string name="_16sp">16sp</string>
+    <string name="_8sp">8sp</string>
+
+    <!--For Question 6-->
+    <string name="que6">
+        <b>Q6. </b>What is the API level of Android 8.1(Oreo)?</string>
+    <string name="api">API</string>
+
+    <!--For Question 7-->
+    <string name="que7">
+        <b>Q7. </b>If we\'ve to overlap Views, which one of these two do we prefer?</string>
+    <string name="linear_layout">LinearLayout</string>
+    <string name="relative_layout">Relative Layout</string>
+
+    <!--For Question 8-->
+    <string name="que8">
+        <b>Q8. </b>Which of these two should be given same values?</string>
+    <string name="opt8a">compileSdkVersion</string>
+    <string name="opt8b">minSdkVersion</string>
+    <string name="opt8c">targetSdkVersion</string>
+    <string name="opt8d">applicationId</string>
+
+    <string name="submit">Submit</string>
+    <string name="cancel">Cancel</string>
+    <string name="well_played">Well Played 🎉✨👏</string>
+    <string name="trophy">trophy</string>
+</resources>

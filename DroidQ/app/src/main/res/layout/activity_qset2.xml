@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EDDED7"
+    tools:context=".QSet1Activity">
+
+    <!--ImageView to add background and a ScrollView over it-->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/background_image"
+        android:scaleType="centerCrop"
+        android:src="@drawable/android_oreo_bg" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_176dp"
+            android:orientation="vertical">
+            <!--Four set of CardView which displays questions having parametric values
+            stored in res/values/... where required-->
+
+            <android.support.v7.widget.CardView style="@style/CardView.Question">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/que_5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="sans-serif-light"
+                        android:padding="@dimen/dimen_16dp"
+                        android:text="@string/que5"
+                        android:textSize="@dimen/dimen_24sp" />
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/que_5"
+                        android:layout_marginBottom="@dimen/dimen_16dp"
+                        android:layout_marginStart="@dimen/dimen_16dp">
+
+                        <RadioButton
+                            android:id="@+id/ans5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/dimen_8dp"
+                            android:padding="@dimen/dimen_4dp"
+                            android:text="@string/_14sp" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/dimen_8dp"
+                            android:padding="@dimen/dimen_4dp"
+                            android:text="@string/_56sp" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/dimen_8dp"
+                            android:padding="@dimen/dimen_4dp"
+                            android:text="@string/_16sp" />
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/dimen_4dp"
+                            android:text="@string/_8sp" />
+                    </RadioGroup>
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView style="@style/CardView.Question">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/que_6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="sans-serif-light"
+                        android:padding="@dimen/dimen_16dp"
+                        android:text="@string/que6"
+                        android:textSize="@dimen/dimen_24sp" />
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/ans6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/dimen_16dp"
+                        android:layout_marginEnd="@dimen/dimen_24dp"
+                        android:layout_marginStart="@dimen/dimen_24dp"
+                        android:inputType="number" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView style="@style/CardView.Question">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/que_7"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:fontFamily="sans-serif-light"
+                        android:padding="@dimen/dimen_16dp"
+                        android:text="@string/que7"
+                        android:textSize="@dimen/dimen_24sp" />
+
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/que_7"
+                        android:layout_marginBottom="@dimen/dimen_16dp"
+                        android:layout_marginStart="@dimen/dimen_16dp">
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/dimen_8dp"
+                            android:padding="@dimen/dimen_4dp"
+                            android:text="@string/linear_layout" />
+
+                        <RadioButton
+                            android:id="@+id/ans7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="@dimen/dimen_4dp"
+                            android:text="@string/relative_layout" />
+
+                    </RadioGroup>
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView style="@style/CardView.Question">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/que_8"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="sans-serif-light"
+                        android:padding="@dimen/dimen_16dp"
+                        android:text="@string/que8"
+                        android:textSize="@dimen/dimen_24sp" />
+
+                    <CheckBox
+                        android:id="@+id/ans8a"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/dimen_8dp"
+                        android:layout_marginStart="@dimen/dimen_16dp"
+                        android:padding="@dimen/dimen_4dp"
+                        android:text="@string/opt8a" />
+
+                    <CheckBox
+                        android:id="@+id/ans8b"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/dimen_8dp"
+                        android:layout_marginStart="@dimen/dimen_16dp"
+                        android:padding="@dimen/dimen_4dp"
+                        android:text="@string/opt8b" />
+
+                    <CheckBox
+                        android:id="@+id/ans8c"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/dimen_8dp"
+                        android:layout_marginStart="@dimen/dimen_16dp"
+                        android:padding="@dimen/dimen_4dp"
+                        android:text="@string/opt8c" />
+
+                    <CheckBox
+                        android:id="@+id/ans8d"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/dimen_16dp"
+                        android:layout_marginStart="@dimen/dimen_16dp"
+                        android:padding="@dimen/dimen_4dp"
+                        android:text="@string/opt8d" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <!--Button to check the reset and back to QSet1-->
+                <Button
+                    android:id="@+id/cancel"
+                    style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/dimen_16dp"
+                    android:layout_marginStart="@dimen/dimen_16dp"
+                    android:text="@string/cancel" />
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:id="@+id/submit"
+                    style="@style/Widget.AppCompat.Button.Colored"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/dimen_16dp"
+                    android:layout_marginEnd="@dimen/dimen_16dp"
+                    android:text="@string/submit" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_176dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
