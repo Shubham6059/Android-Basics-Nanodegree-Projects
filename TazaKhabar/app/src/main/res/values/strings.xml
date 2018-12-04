@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Taza Khabar</string>
+    <string name="network_error_warning">
+        Dead! because of poor or no internet connection.\n\nKindly connect to internet and restart
+        the app.</string>
+    <string name="section">Section</string>
+    <string name="date">Date</string>
+    <string name="title">Title</string>
+    <string name="author">Author</string>
+</resources>
