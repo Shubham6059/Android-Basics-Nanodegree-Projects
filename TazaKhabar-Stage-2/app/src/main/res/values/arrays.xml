@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Array for Order By Label and Value items-->
+    <string-array name="order_by_label">
+        <item>@string/order_by_newest_news_label</item>
+        <item>@string/order_by_oldest_news_label</item>
+        <item>@string/order_by_relevance_news_label</item>
+    </string-array>
+
+    <string-array name="order_by_value">
+        <item>@string/order_by_newest_news_value</item>
+        <item>@string/order_by_oldest_news_value</item>
+        <item>@string/order_by_relevance_news_value</item>
+    </string-array>
+
+    <!--Array for Section preference Label and Value-->
+    <string-array name="section_label">
+        <item>@string/section_all_news_label</item>
+        <item>@string/section_us_news_label</item>
+        <item>@string/section_world_news_label</item>
+        <item>@string/section_media_network_news_label</item>
+        <item>@string/section_Business_news_label</item>
+        <item>@string/section_Film_news_label</item>
+    </string-array>
+
+    <string-array name="section_value">
+        <item>@string/section_all_news_value</item>
+        <item>@string/section_us_news_value</item>
+        <item>@string/section_world_news_value</item>
+        <item>@string/section_media_network_news_value</item>
+        <item>@string/section_Business_news_value</item>
+        <item>@string/section_Film_news_value</item>
+    </string-array>
+</resources>

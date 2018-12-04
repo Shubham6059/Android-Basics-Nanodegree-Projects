@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Taza Khabar</string>
+    <string name="network_error_warning">
+        Dead! because of poor or no internet connection.\n\nKindly connect to internet and restart
+        the app.</string>
+    <string name="section">Section</string>
+    <string name="date">Date</string>
+    <string name="title">Title</string>
+    <string name="author">Author</string>
+
+    <string name="settings_menu_item">Settings</string>
+    <string name="settings_title">News Settings</string>
+
+    <!--Label and value items for Order By preference for the News-->
+    <string name="order_by_label">Order By</string>
+    <string name="order_by_key">order by</string>
+    <string name="order_by_default">@string/order_by_newest_news_value</string>
+
+    <string name="order_by_newest_news_label">Newest</string>
+    <string name="order_by_newest_news_value">newest</string>
+
+    <string name="order_by_oldest_news_label">Oldest</string>
+    <string name="order_by_oldest_news_value">oldest</string>
+
+    <string name="order_by_relevance_news_label">Relevance</string>
+    <string name="order_by_relevance_news_value">relevance</string>
+
+    <!--Label and value items for Section Name preference of the News-->
+    <string name="section_label">Section</string>
+    <string name="section_news_key">section</string>
+    <string name="section_news_default">@string/section_all_news_value</string>
+
+    <string name="section_all_news_label">All</string>
+    <string name="section_all_news_value">all</string>
+
+    <string name="section_us_news_label">US News</string>
+    <string name="section_us_news_value">us-news</string>
+
+    <string name="section_world_news_label">World News</string>
+    <string name="section_world_news_value">world</string>
+
+    <string name="section_media_network_news_label">Media Network</string>
+    <string name="section_media_network_news_value">media-network</string>
+
+    <string name="section_Business_news_label">Business</string>
+    <string name="section_Business_news_value">business</string>
+
+    <string name="section_Film_news_label">Film</string>
+    <string name="section_Film_news_value">film</string>
+
+</resources>
