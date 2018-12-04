@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Cricket Scores</string>
+    <string name="cricket_ball">A rotating Cricket Ball</string>
+    <string name="India">IND</string>
+    <string name="Australia">AUS</string>
+    <string name="zero">0</string>
+    <string name="IND_img">Indian_Cricket_Team_Logo</string>
+    <string name="AUS_img">Australian_Cricket_Team_Logo</string>
+    <string name="Six">6 Runs</string>
+    <string name="Four">4 Runs</string>
+    <string name="Three">3 Runs</string>
+    <string name="Two">2 Runs</string>
+    <string name="One">1 Run</string>
+    <string name="Reset">Reset</string>
+</resources>
