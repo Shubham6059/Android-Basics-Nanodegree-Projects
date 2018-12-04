@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">Sangam Nagri</string>
+
+    <string name="info">info</string>
+    <string name="events">events</string>
+    <string name="places">places</string>
+    <string name="food">food</string>
+
+    <string name="location_title">Location Title</string>
+    <string name="location_details">Location Details</string>
+    <string name="location_image">Location Image</string>
+
+    <string name="city_name">Prayagraj</string>
+    <string name="city_details">
+        Prayagraj is a metropolitan city in the Indian state of Uttar Pradesh.It is well known for
+        the Triveni Sangam, which is the meeting place of Ganges, the Yamuna and invisible Saraswati
+        River, which according to Hindu legends, wells up from underground. A place of religious
+        importance and the site for historic Prayagraj Maha Kumbh Mela held every 12 years, and
+        Ardha Kumbh Mela every 6 years one of which is going to be held from January to March 2019.
+    </string>
+
+
+    <string name="magha_mela">Magha Mela</string>
+    <string name="magha_mela_details">
+        Magh Mela is the most beloved religious and cultural fair of Hindus. According to the Hindu
+        calendar, this fair is held in the month of Magha on the day of Makar Sankranti on 14 or 15
+        January. It is celebrated in all the major pilgrimage sites of India. Prayag having its
+        major importance in Hindu mythology, according to Hindu religion, Lord Brahma, the creator
+        of the universe, has been called it \'Tirtha Raj\' or King of Shrines.
+    </string>
+
+
+    <string name="kumbh_mela">Kumbh Mela</string>
+    <string name="kumbh_details">
+        Kumbh Mela, in Hinduism, is a religious pilgrimage that is celebrated four times over a
+        course of 12 years. The geographical location of Kumbh Mela spans over four locations in
+        India and the Mela site keeps rotating between one of the four pilgrimage places on four
+        sacred rivers, most well known being Triveni Sangam of Prayagraj.
+    </string>
+
+
+    <string name="prayagraj_fort">Prayagraj Fort</string>
+    <string name="Prayagraj_Quila_details">
+        Prayagraj Fort is a fort built by the Mughal emperor Akbar at Prayagraj, Uttar Pradesh,
+        India in 1583. The fort stands on the banks of the Yamuna near its confluence with the river
+        Ganges. It is recognised by the Archaeological Survey of India as a monument of national importance.
+    </string>
+
+
+    <string name="Khusro_Bagh">Khusro Bagh</string>
+    <string name="Khusro_bagh_details">
+        Khusrau Bagh is a large walled garden and burial complex located in muhalla Khuldabad close
+        to the Prayagraj Junction Station, in Prayagraj, India. It is roughly two miles from the
+        Akbar built Prayagraj Fort.
+    </string>
+
+
+    <string name="All_Saints_Cathedral">All Saints Cathedral</string>
+    <string name="all_saints_cathedral_details">
+        All Saints\' Cathedral, also known as Patthar Girja is an Anglican cathedral located in
+        Prayagraj, India. Modeled after 13th-century Gothic style churches, it is among the Gothic
+        Revival buildings built by the British during their rule in India.
+    </string>
+
+
+    <string name="paradise_bakery">Paradise Bakery</string>
+    <string name="paradise_bakery_details">
+        Serves delicious cakes, pastry and other items located in Civil Lines area in Prayagraj</string>
+
+
+    <string name="dewsis_restaurant">Dewsis Restaurant</string>
+    <string name="dewsis_details">
+        Ideal family restaurant in the city serves both veg and non veg food items, located near
+        High Court, Prayagraj</string>
+</resources>
