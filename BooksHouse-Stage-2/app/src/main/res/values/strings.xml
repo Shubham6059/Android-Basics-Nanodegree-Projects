@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Books House</string>
+
+    <!--Column Values for books database-->
+    <string name="product_name">Product Name</string>
+    <string name="price">Price</string>
+    <string name="quantity">Quantity</string>
+    <string name="supplier_name">Supplier Name</string>
+    <string name="supplier_contact">Supplier Contact</string>
+
+    <!--For label-->
+    <string name="add_a_book">Add a Book</string>
+    <string name="edit_book">Edit Book</string>
+    <string name="books_details">Books Details</string>
+
+    <!--For book_list_item-->
+    <string name="available">Available Pc:</string>
+    <string name="maximum_retail_price">MRP</string>
+    <string name="sale">Sale</string>
+    <string name="rent">Rent</string>
+    <string name="minus1">-1</string>
+    <string name="plus1">+1</string>
+    <string name="book_name">Book Name</string>
+
+    <!--Toast messages-->
+    <string name="fill_all_fields">Fill all fields!</string>
+    <string name="enter_product_name">Enter Product name</string>
+    <string name="enter_correct_price">Enter correct Price!</string>
+    <string name="zero_quantity">Quantity cann\'t be Zero</string>
+    <string name="enter_supplier_name">Enter Supplier Name</string>
+    <string name="not_a_valid_contact">Not a valid contact</string>
+    <string name="error_saving_book_data">Error saving Book data</string>
+    <string name="book_data_saved">Book data saved</string>
+    <string name="the_books_table_contains">The \"books\" table contains</string>
+    <string name="books">books.\n\n</string>
+    <string name="purchase_toast">Thanks for Purchase!</string>
+    <string name="out_of_stock">Out of Stock!</string>
+    <string name="error_in_deleting_book">Error in Deleting Book</string>
+    <string name="book_deleted">Book Deleted</string>
+    <string name="all_books_deleted">All Books Deleted</string>
+    <string name="error_updating_book">Error updating Book</string>
+    <string name="book_updated">Book Updated</string>
+
+    <!--For menu Items-->
+    <string name="delete_all_books">Delete All Books</string>
+    <string name="contact_supplier">Contact Supplier</string>
+    <string name="action_save">Save</string>
+
+    <!--For Alert Dialog-->
+    <string name="delete_book">Delete Book</string>
+    <string name="confirm_delete">Confirm Delete?</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="discard">Discard</string>
+    <string name="keep_editing">Keep Editing</string>
+    <string name="discard_and_quit_editing">Discard and Quit Editing?</string>
+
+    <!--For emptyView Display TextView-->
+    <string name="get_started_by_adding_a_book">Get started by adding a book</string>
+</resources>

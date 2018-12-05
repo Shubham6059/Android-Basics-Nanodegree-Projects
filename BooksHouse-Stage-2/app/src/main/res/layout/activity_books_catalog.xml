@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.BooksCatalogActivity">
+
+    <ListView
+        android:id="@+id/books_listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!--emptyView default TextView to display when the database is empty-->
+    <TextView
+        android:id="@+id/emptyView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:fontFamily="sans-serif-light"
+        android:text="@string/get_started_by_adding_a_book"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="@color/textView" />
+
+    <!--To add Books Details-->
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/add_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/dp_16"
+        android:src="@drawable/ic_add_fab" />
+
+</RelativeLayout>

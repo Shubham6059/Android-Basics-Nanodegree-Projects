@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/dp_16"
+    tools:context=".activity.BooksCatalogActivity">
+
+    <TextView
+        android:id="@+id/book_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dp_16"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="@color/textView"
+        tools:text="@string/book_name" />
+
+    <!--Maximum Retail Price or MRP-->
+    <TextView
+        android:id="@+id/mrp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/available"
+        android:layout_marginTop="@dimen/dp_8"
+        android:layout_marginEnd="@dimen/dp_8"
+        android:text="@string/maximum_retail_price" />
+
+    <TextView
+        android:id="@+id/book_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/available"
+        android:layout_marginTop="@dimen/dp_8"
+        android:layout_toEndOf="@id/mrp"
+        android:textColor="@color/textView"
+        tools:text="@string/price" />
+
+    <TextView
+        android:id="@+id/available"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/book_name"
+        android:layout_marginEnd="@dimen/dp_8"
+        android:text="@string/available" />
+
+    <!--To display available pc or quantity-->
+    <TextView
+        android:id="@+id/book_quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/book_name"
+        android:layout_toEndOf="@id/available"
+        android:textColor="@color/textView"
+        tools:text="@string/quantity" />
+
+    <!--Sale Button to prompt a Toast and decrease available quantity-->
+    <Button
+        android:id="@+id/saleButton"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/book_name"
+        android:layout_alignParentEnd="true"
+        android:focusable="false"
+        android:text="@string/sale" />
+
+</RelativeLayout>
